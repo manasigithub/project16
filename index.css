@@ -1,0 +1,35 @@
+.new{
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.new1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 250px;
+
+}
+.new2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   /* grid-gap: 50px;*/
+}
+.new3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   /* grid-gap: 90px;*/
+}
+input[type=text]{
+    width: 200%;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px solid gray;
+}
+.child3>input[type=text]{
+    border-radius: 10px;
+
+}
+
